@@ -1,0 +1,22 @@
+# Hammer Mechanical
+
+> Hammer Mechanical is a licensed multi-trade company serving Hamilton, Ontario and Southern Ontario (Burlington, Oakville, Niagara, Brantford, Kitchener-Waterloo, Guelph). Services span three trades — electrical, plumbing, and HVAC — including panel upgrades, wiring, EV chargers, drain cleaning, bathroom rough-ins, gas lines, furnaces, air conditioning, heat pumps, indoor air quality, ductwork, water heating, smart home controls, maintenance plans, and 24/7 emergency response. Phone: (905) 555-0123. Email: info@hammermechanical.ca. Address: 123 Example Street (Unit 1), Hamilton, Ontario.
+
+## Services
+
+- [Electrical Services](https://hammermechanical.ca/electrical): Panel upgrades and service changes, wiring and rewiring, EV charger installation, pot lights and lighting design, troubleshooting and repairs, generators and backup power
+- [Plumbing Services](https://hammermechanical.ca/plumbing): Leak repair, drain cleaning and camera inspections, bathroom and kitchen rough-ins, fixture installation, sump pumps and backwater valves, gas lines
+- [Heating Services](https://hammermechanical.ca/heating): Furnace installation and repair, high-efficiency upgrades, boilers, thermostats, annual maintenance
+- [Cooling & Air Conditioning](https://hammermechanical.ca/cooling): Central AC installation and repair, ductless mini-splits, refrigerant service, seasonal maintenance
+- [Heat Pump Systems](https://hammermechanical.ca/heat-pumps): Heat pump design and installation, repair and optimization, cold-climate solutions, hybrid heating
+- [Indoor Air Quality](https://hammermechanical.ca/indoor-air-quality): Air purification, HEPA filtration, UV sanitizers, humidifiers, HRV/ERV ventilation
+- [Ductwork & Ventilation](https://hammermechanical.ca/ductwork): Duct design, installation, cleaning and sealing, dryer vents, air balancing
+- [Water Heating](https://hammermechanical.ca/water-heating): Tank and tankless water heaters, repair, expansion tanks, mixing valves
+- [Smart Home & Controls](https://hammermechanical.ca/smart-home): Smart thermostats, zoning systems, automation upgrades
+- [Maintenance & Service Plans](https://hammermechanical.ca/maintenance): Annual tune-ups, priority service plans, pre-season inspections across all three trades
+- [Emergency Service](https://hammermechanical.ca/emergency): 24/7 emergency electrical, plumbing and HVAC response in Hamilton and Southern Ontario
+
+## Company
+
+- [Homepage](https://hammermechanical.ca/): Overview, customer testimonials, gallery, and quote request form
+- Credentials: ESA Licensed Electrical Contractor, TSSA certified, WSIB insured, Skilled Trades Ontario

@@ -1,0 +1,23 @@
+# Windows / OneDrive
+desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# Node / build artifacts (in case future tooling is added)
+node_modules/
+dist/
+build/
+.env
+.env.local

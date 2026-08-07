@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hammer Mechanical | Hamilton Electrical, Plumbing &amp; HVAC</title>
+    <meta name="description"
+          content="Hammer Mechanical provides professional electrical, plumbing and HVAC installation, repair and maintenance in Hamilton, Ontario and across Southern Ontario. Call (905) 555-0123 for reliable service!">
+    <link rel="canonical" href="https://hammermechanical.ca/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <meta name="theme-color" content="#050708">
+
+    <style>
+        .service-detail {
+            padding: 3rem 0;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .service-detail-inner {
+            display: grid;
+            gap: 1.25rem;
+            align-items: center;
+        }
+
+        @media (min-width: 900px) {
+            .service-detail-inner {
+                grid-template-columns: minmax(0,1.2fr) minmax(0,1fr);
+                gap: 2rem;
+            }
+        }
+
+        .service-detail.alt .service-detail-inner {
+            direction: rtl;
+        }
+
+        .service-detail.alt .service-detail-content,
+        .service-detail.alt .service-detail-media {
+            direction: ltr;
+        }
+
+        .service-detail-content h2 {
+            margin: 0 0 0.6rem;
+            font-size: 1.35rem;
+        }
+
+        .service-detail-content p {
+            margin: 0;
+            line-height: 1.7;
+        }
+
+        .service-detail-media {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: #0b0f13;
+            box-shadow: var(--shadow-soft);
+            aspect-ratio: 4 / 3;
+        }
+
+            .service-detail-media img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-top">
+            <div class="header-top-row">
+                <a href="tel:19055550123" class="header-call-btn" aria-label="Call (905) 555-0123">
+                    <img src="images/call_now_button.png" alt="Call Now: (905) 555-0123" title="Call (905) 555-0123" class="header-call-img" width="480" height="271" loading="eager">
+                </a>
+                <a href="#top" class="brand">
+                    <img src="images/hammer_logo.png" alt="Hammer Mechanical logo" title="Hammer Mechanical" width="515" height="517" loading="eager" class="logo">
+                    <span class="brand-tagline">One Call. Every Trade.</span>
+                </a>
+                <button class="header-deals" type="button" aria-expanded="false" aria-controls="deals-popup" aria-label="Limited time offer, click to view deals">
+                    <img src="images/limited_time_offer_button.png" alt="Limited Time Offer: click to view deals" title="Limited Time Offer" class="header-deals-img" width="480" height="361" loading="eager">
+                </button>
+            </div>
+            <div class="services-marquee" aria-label="Our services">
+                <div class="marquee-track">
+                    <span class="marquee-item">Electrical</span>
+                    <span class="marquee-item">Plumbing</span>
+                    <span class="marquee-item">Heating</span>
+                    <span class="marquee-item">Cooling &amp; Air Conditioning</span>
+                    <span class="marquee-item">Heat Pumps</span>
+                    <span class="marquee-item">Smart Home &amp; Controls</span>
+                    <span class="marquee-item">Water Heating</span>
+                    <span class="marquee-item">Ductwork &amp; Ventilation</span>
+                    <span class="marquee-item">Maintenance &amp; Service Plans</span>
+                    <span class="marquee-item">Indoor Air Quality</span>
+                    <span class="marquee-item">Emergency &amp; Priority Response</span>
+                    <span class="marquee-item" aria-hidden="true">Electrical</span>
+                    <span class="marquee-item" aria-hidden="true">Plumbing</span>
+                    <span class="marquee-item" aria-hidden="true">Heating</span>
+                    <span class="marquee-item" aria-hidden="true">Cooling &amp; Air Conditioning</span>
+                    <span class="marquee-item" aria-hidden="true">Heat Pumps</span>
+                    <span class="marquee-item" aria-hidden="true">Smart Home &amp; Controls</span>
+                    <span class="marquee-item" aria-hidden="true">Water Heating</span>
+                    <span class="marquee-item" aria-hidden="true">Ductwork &amp; Ventilation</span>
+                    <span class="marquee-item" aria-hidden="true">Maintenance &amp; Service Plans</span>
+                    <span class="marquee-item" aria-hidden="true">Indoor Air Quality</span>
+                    <span class="marquee-item" aria-hidden="true">Emergency &amp; Priority Response</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container header-bottom-inner">
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+                <nav class="nav">
+                    <ul>
+                        <li data-icon="why"><a href="#why">Why Choose Us</a></li>
+                        <li data-icon="services"><a href="#services">Services</a></li>
+                        <li data-icon="gallery"><a href="#gallery">Gallery</a></li>
+                        <li data-icon="reviews"><a href="#reviews">Testimonials</a></li>
+                        <li data-icon="contact"><a href="#contact" class="nav-cta">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-text">
+                        <h1>#1 Electrical, Plumbing &amp; HVAC in Hamilton &amp; Southern Ontario</h1>
+                        <p>
+                            Hammer Mechanical keeps your home powered, flowing and comfortable all year round with
+                            licensed electrical, plumbing, and HVAC services you can trust
+                        </p>
+                        <div class="hero-actions">
+                            <a href="tel:19055550123" class="btn btn-primary">Call Now: (905) 555-0123</a>
+                            <a href="#contact" class="btn btn-outline">Request a Quote</a>
+                        </div>
+                        <div class="hero-testimonials" aria-label="Customer testimonials">
+                            <blockquote class="hero-testimonial is-active">
+                                <div class="ht-head">
+                                    <span class="ht-avatar" style="--av:#34a853">J<svg class="ht-g" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span>
+                                    <div class="ht-id">
+                                        <span class="ht-name">Jordan M.<svg class="ht-verified" viewBox="0 0 24 24" aria-label="Verified"><path fill="#111111" d="M23 12l-2.44-2.79.34-3.69-3.61-.82-1.89-3.2L12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 12l2.44 2.79-.34 3.7 3.61.82L8.6 22.5l3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69L23 12zm-12.91 4.72l-3.8-3.81 1.48-1.48 2.32 2.33 5.85-5.87 1.48 1.48-7.33 7.35z"/></svg></span>
+                                        <span class="ht-date">2 months ago</span>
+                                    </div>
+                                </div>
+                                <span class="hero-testimonial-stars" aria-hidden="true">★★★★★</span>
+                                <p>Panel upgrade and a new AC in the same week, one crew, zero hassle. These guys are the real deal.</p>
+                            </blockquote>
+                            <blockquote class="hero-testimonial">
+                                <div class="ht-head">
+                                    <span class="ht-avatar" style="--av:#ea4335">S<svg class="ht-g" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span>
+                                    <div class="ht-id">
+                                        <span class="ht-name">Sandra K.<svg class="ht-verified" viewBox="0 0 24 24" aria-label="Verified"><path fill="#111111" d="M23 12l-2.44-2.79.34-3.69-3.61-.82-1.89-3.2L12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 12l2.44 2.79-.34 3.7 3.61.82L8.6 22.5l3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69L23 12zm-12.91 4.72l-3.8-3.81 1.48-1.48 2.32 2.33 5.85-5.87 1.48 1.48-7.33 7.35z"/></svg></span>
+                                        <span class="ht-date">3 months ago</span>
+                                    </div>
+                                </div>
+                                <span class="hero-testimonial-stars" aria-hidden="true">★★★★★</span>
+                                <p>Burst pipe on a Sunday night — they answered, showed up fast, and the price was exactly the quote.</p>
+                            </blockquote>
+                            <blockquote class="hero-testimonial">
+                                <div class="ht-head">
+                                    <span class="ht-avatar" style="--av:#4285f4">P<svg class="ht-g" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span>
+                                    <div class="ht-id">
+                                        <span class="ht-name">Priya R.<svg class="ht-verified" viewBox="0 0 24 24" aria-label="Verified"><path fill="#111111" d="M23 12l-2.44-2.79.34-3.69-3.61-.82-1.89-3.2L12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 12l2.44 2.79-.34 3.7 3.61.82L8.6 22.5l3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69L23 12zm-12.91 4.72l-3.8-3.81 1.48-1.48 2.32 2.33 5.85-5.87 1.48 1.48-7.33 7.35z"/></svg></span>
+                                        <span class="ht-date">3 months ago</span>
+                                    </div>
+                                </div>
+                                <span class="hero-testimonial-stars" aria-hidden="true">★★★★★</span>
+                                <p>Furnace died in January. Hammer had a new high-efficiency unit running the next day. Spotless work.</p>
+                            </blockquote>
+                            <blockquote class="hero-testimonial">
+                                <div class="ht-head">
+                                    <span class="ht-avatar" style="--av:#9334a8">D<svg class="ht-g" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span>
+                                    <div class="ht-id">
+                                        <span class="ht-name">Dave T.<svg class="ht-verified" viewBox="0 0 24 24" aria-label="Verified"><path fill="#111111" d="M23 12l-2.44-2.79.34-3.69-3.61-.82-1.89-3.2L12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 12l2.44 2.79-.34 3.7 3.61.82L8.6 22.5l3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69L23 12zm-12.91 4.72l-3.8-3.81 1.48-1.48 2.32 2.33 5.85-5.87 1.48 1.48-7.33 7.35z"/></svg></span>
+                                        <span class="ht-date">4 months ago</span>
+                                    </div>
+                                </div>
+                                <span class="hero-testimonial-stars" aria-hidden="true">★★★★★</span>
+                                <p>EV charger install was quick and clean, and they walked me through the rebate paperwork too.</p>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="hero-card photo-panel" aria-label="Work photo">
+                        <div class="photo-slot">
+                            <img src="images/hammer_service_van_photo.jpg" alt="Hammer Mechanical service van (image placeholder)" title="Hammer Mechanical service van" width="800" height="800" loading="eager">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="why" class="section section-dark">
+            <div class="container">
+                <div class="why-layout">
+                <div class="why-intro">
+                    <h2 class="section-title">Why Choose Hammer Mechanical?</h2>
+                </div>
+                <div class="grid why-grid">
+                    <div class="why-card">
+                        <button class="why-card-toggle" type="button" aria-expanded="false" aria-controls="why-panel-1">
+                            <img src="images/licensed_technician_photo.jpg" alt="Licensed technician at work (image placeholder)" title="Licensed technician at work" width="838" height="628" loading="lazy" class="why-card-photo">
+                            <span class="why-card-overlay"></span>
+                            <span class="why-card-heading">Every Trade, One Team</span>
+                        </button>
+                        <span class="why-card-tab" aria-hidden="true"><span class="why-card-tab-arrow"></span></span>
+                        <div class="why-card-panel" id="why-panel-1" role="region" aria-label="Every Trade, One Team details">
+                            <div class="why-card-panel-inner">
+                                <p>Licensed electricians, plumbers and HVAC technicians under one roof. <b>One call, one crew</b>, every job done right.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-card">
+                        <button class="why-card-toggle" type="button" aria-expanded="false" aria-controls="why-panel-2">
+                            <img src="images/quality_installation_photo.jpg" alt="Quality installation work (image placeholder)" title="Quality installation work" width="1000" height="563" loading="lazy" class="why-card-photo">
+                            <span class="why-card-overlay"></span>
+                            <span class="why-card-heading">Peace Of Mind</span>
+                        </button>
+                        <span class="why-card-tab" aria-hidden="true"><span class="why-card-tab-arrow"></span></span>
+                        <div class="why-card-panel" id="why-panel-2" role="region" aria-label="Peace Of Mind details">
+                            <div class="why-card-panel-inner">
+                                <p><b>Fast, efficient</b> installs, repairs, and upgrades. Licensed, insured, and code-compliant work done right the first time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-card">
+                        <button class="why-card-toggle" type="button" aria-expanded="false" aria-controls="why-panel-3">
+                            <img src="images/clean_worksite_photo.jpg" alt="Clean, careful workmanship (image placeholder)" title="Clean, careful workmanship" width="560" height="452" loading="lazy" class="why-card-photo">
+                            <span class="why-card-overlay"></span>
+                            <span class="why-card-heading">Home/Office Space Awareness</span>
+                        </button>
+                        <span class="why-card-tab" aria-hidden="true"><span class="why-card-tab-arrow"></span></span>
+                        <div class="why-card-panel" id="why-panel-3" role="region" aria-label="Home/Office Space Awareness details">
+                            <div class="why-card-panel-inner">
+                                <p>We treat your space with care and leave every job site <b>spotless</b>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section section-light">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+
+                <div class="grid services-grid">
+
+                    <a class="card service-card service-link" href="electrical.html" aria-label="Electrical Services">
+                        <h3>Electrical Services</h3>
+                        <div class="service-thumb">
+                            <img src="images/electrical_services_main_photo.jpg" alt="Electrical services (image placeholder)" title="Electrical Services" width="1600" height="1067" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="plumbing.html" aria-label="Plumbing Services">
+                        <h3>Plumbing Services</h3>
+                        <div class="service-thumb">
+                            <img src="images/plumbing_services_main_photo.jpg" alt="Plumbing services (image placeholder)" title="Plumbing Services" width="1200" height="803" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="heating.html" aria-label="Heating Services">
+                        <h3>Heating Services</h3>
+                        <div class="service-thumb">
+                            <img src="images/heating_services_main_photo.jpg" alt="Heating services (image placeholder)" title="Heating Services" width="1600" height="1067" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="cooling.html" aria-label="Cooling & Air Conditioning">
+                        <h3>Cooling &amp; Air Conditioning</h3>
+                        <div class="service-thumb">
+                            <img src="images/cooling_services_main_photo.jpg" alt="Cooling and air conditioning (image placeholder)" title="Cooling & Air Conditioning" width="1200" height="803" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="heat-pumps.html" aria-label="Heat Pump Systems">
+                        <h3>Heat Pump Systems</h3>
+                        <div class="service-thumb">
+                            <img src="images/heat_pump_systems_main_photo.jpg" alt="Heat pump systems (image placeholder)" title="Heat Pump Systems" width="1200" height="740" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="indoor-air-quality.html" aria-label="Indoor Air Quality">
+                        <h3>Indoor Air Quality</h3>
+                        <div class="service-thumb">
+                            <img src="images/indoor_air_quality_main_photo.jpg" alt="Indoor air quality services (image placeholder)" title="Indoor Air Quality" width="1000" height="665" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="ductwork.html" aria-label="Ductwork & Ventilation">
+                        <h3>Ductwork &amp; Ventilation</h3>
+                        <div class="service-thumb">
+                            <img src="images/ductwork_ventilation_main_photo.jpg" alt="Ductwork and ventilation (image placeholder)" title="Ductwork & Ventilation" width="1024" height="546" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="water-heating.html" aria-label="Water Heating">
+                        <h3>Water Heating</h3>
+                        <div class="service-thumb">
+                            <img src="images/water_heating_main_photo.jpg" alt="Water heating services (image placeholder)" title="Water Heating" width="998" height="784" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="smart-home.html" aria-label="Smart Home & Controls">
+                        <h3>Smart Home &amp; Controls</h3>
+                        <div class="service-thumb">
+                            <img src="images/smart_home_controls_main_photo.jpg" alt="Smart home controls (image placeholder)" title="Smart Home & Controls" width="400" height="300" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="maintenance.html" aria-label="Maintenance & Service Plans">
+                        <h3>Maintenance &amp; Service Plans</h3>
+                        <div class="service-thumb">
+                            <img src="images/maintenance_plans_main_photo.jpg" alt="Maintenance and service plans (image placeholder)" title="Maintenance & Service Plans" width="1224" height="816" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a class="card service-card service-link" href="emergency.html" aria-label="Emergency & Priority Response">
+                        <h3>Emergency &amp; Priority Response</h3>
+                        <div class="service-thumb">
+                            <img src="images/emergency_response_main_photo.jpg" alt="Emergency response (image placeholder)" title="Emergency & Priority Response" width="350" height="350" loading="lazy">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section section-dark">
+            <div class="container">
+                <h2 class="section-title">Gallery</h2>
+
+                <div class="gallery-wrap">
+                    <button class="gallery-btn left" type="button" aria-label="Scroll gallery left">‹</button>
+
+                    <div class="gallery-track" aria-label="Scrollable photo gallery">
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_01.jpg" alt="Gallery Photo 1 (placeholder — e.g. 200A panel upgrade)" title="Panel upgrade" width="570" height="757" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_02.jpg" alt="Gallery Photo 2 (placeholder — e.g. EV charger install)" title="EV charger install" width="426" height="762" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_03.jpg" alt="Gallery Photo 3 (placeholder — e.g. pot light installation)" title="Pot light installation" width="602" height="563" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_04.jpg" alt="Gallery Photo 4 (placeholder — e.g. bathroom rough-in)" title="Bathroom rough-in" width="570" height="765" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_05.jpg" alt="Gallery Photo 5 (placeholder — e.g. tankless water heater)" title="Tankless water heater" width="567" height="761" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_06.jpg" alt="Gallery Photo 6 (placeholder — e.g. furnace installation)" title="Furnace installation" width="570" height="765" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_07.jpg" alt="Gallery Photo 7 (placeholder — e.g. sump pump and backwater valve)" title="Sump pump install" width="599" height="800" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_08.jpg" alt="Gallery Photo 8 (placeholder — e.g. air conditioner install)" title="Air conditioner install" width="523" height="531" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_09.jpg" alt="Gallery Photo 9 (placeholder — e.g. ductless mini split)" title="Ductless mini split" width="1011" height="754" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_10.jpg" alt="Gallery Photo 10 (placeholder — e.g. drain cleaning)" title="Drain cleaning" width="599" height="802" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_11.jpg" alt="Gallery Photo 11 (placeholder — e.g. smart thermostat)" title="Smart thermostat" width="1067" height="800" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_12.jpg" alt="Gallery Photo 12 (placeholder — e.g. gas line hookup)" title="Gas line hookup" width="600" height="803" loading="lazy">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery_photo_13.jpg" alt="Gallery Photo 13 (placeholder — e.g. boiler installation)" title="Boiler installation" width="600" height="720" loading="lazy">
+                        </div>
+                    </div>
+
+                    <button class="gallery-btn right" type="button" aria-label="Scroll gallery right">›</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark" id="electrical-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Electrical Services</h2>
+                        <p>
+                            From panel upgrades and rewiring to pot lights and EV chargers, our licensed electricians handle every job to code.
+                            ESA permits and inspections are arranged for you, so every circuit is safe, labelled and done right the first time.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/electrical_overview_photo.jpg" alt="Electrical panel work (image placeholder)" title="Electrical Services" width="600" height="804" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light alt" id="plumbing-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Plumbing Services</h2>
+                        <p>
+                            Licensed plumbers for repairs, drain cleaning, fixture installs and full renovation rough-ins.
+                            We find leaks fast, clear stubborn clogs, and keep the water in your home flowing exactly where it should.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/plumbing_overview_photo.jpg" alt="Plumbing installation (image placeholder)" title="Plumbing Services" width="568" height="761" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark" id="heating-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Heating Services</h2>
+                        <p>
+                            From new heating systems to fast repairs or replacements, we keep every Hamilton home warm through the cold winter.
+                            A licensed technician installs and services furnaces, boilers and thermostats, with high efficiency models that lower your utility bill.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/heating_overview_photo.jpg" alt="Furnace installation (image placeholder)" title="Heating Services" width="600" height="804" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light alt" id="cooling-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Cooling &amp; Air Conditioning</h2>
+                        <p>
+                            Certified technicians install and repair every kind of AC unit, from a high efficiency central air conditioner to ductless mini splits.
+                            If your air conditioning unit blows warm air, we diagnose the real cause and restore dependable cooled air fast.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/cooling_overview_photo.jpg" alt="Air conditioner installation (image placeholder)" title="Cooling &amp; Air Conditioning" width="568" height="761" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark" id="heat-pumps-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Heat Pump Systems</h2>
+                        <p>
+                            One energy efficient heat pump system delivers heating and cooling year round while cutting energy costs in every season.
+                            We design, install and optimize cold climate heat pumps built for Southern Ontario winters.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/heat_pumps_overview_photo.jpg" alt="Heat pump installation (image placeholder)" title="Heat Pump Systems" width="1067" height="800" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light alt" id="indoor-air-quality-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Indoor Air Quality</h2>
+                        <p>
+                            Better indoor air quality starts with air purification, HEPA filtration, balanced humidity levels and fresh air ventilation.
+                            We reduce dust and allergens throughout the house so your family breathes cleaner air.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/indoor_air_quality_overview_photo.jpg" alt="Air purification system (image placeholder)" title="Indoor Air Quality" width="1200" height="800" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark" id="ductwork-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Ductwork &amp; Ventilation</h2>
+                        <p>
+                            Leaky air ducts cause energy loss and hot and cold spots around the house.
+                            Our duct design, duct sealing and duct cleaning services restore strong airflow so your home heats and cools evenly.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/ductwork_overview_photo.jpg" alt="Duct installation (image placeholder)" title="Ductwork &amp; Ventilation" width="1000" height="667" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light alt" id="water-heating-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Water Heating</h2>
+                        <p>
+                            A tankless water heater delivers endless hot water on demand with real energy savings, while a well maintained hot water tank provides dependable stored hot water.
+                            We handle water heater installation, repairs and upgrades across Hamilton.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/water_heating_overview_photo.jpg" alt="Tankless water heater (image placeholder)" title="Water Heating" width="1009" height="1024" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark" id="smart-home-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Smart Home &amp; Controls</h2>
+                        <p>
+                            Smart thermostats, zoning systems and control upgrades lower energy usage and keep comfort consistent in every room.
+                            We install and configure everything so your home responds exactly how you want.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/smart_home_overview_photo.jpg" alt="Smart thermostat device (image placeholder)" title="Smart Home &amp; Controls" width="1280" height="720" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light alt" id="maintenance-overview">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Maintenance, Service Plans &amp; Emergency Response</h2>
+                        <p>
+                            Preventative maintenance, priority service plans and seasonal inspections extend your systems' lifespan and prevent breakdowns.
+                            When something fails, our emergency service responds fast across Hamilton and Southern Ontario, day or night.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/maintenance_overview_photo.jpg" alt="Maintenance inspection (image placeholder)" title="Maintenance &amp; Emergency Response" width="838" height="628" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-light cred-sponsor" aria-label="Credentials and Affiliated With">
+            <div class="container">
+                <div class="cred-sponsor-grid">
+                    <div class="cred-sponsor-card">
+                        <h2 class="cred-sponsor-title">Credentials</h2>
+                        <div class="fade-rotator" id="credentials-rotator" aria-label="Credentials rotating images">
+                            <img src="images/esa_logo.png" alt="Credential 1 (placeholder — ESA licensed)" title="ESA Licensed Electrical Contractor" width="225" height="225" loading="lazy" class="is-active">
+                            <img src="images/tssa_logo.png" alt="Credential 2 (placeholder — TSSA certified)" title="TSSA certified" width="225" height="225" loading="lazy">
+                            <img src="images/wsib_logo.png" alt="Credential 3 (placeholder — WSIB insured)" title="WSIB insured" width="225" height="225" loading="lazy">
+                            <img src="images/skilled_trades_ontario_logo.png" alt="Credential 4 (placeholder — Skilled Trades Ontario certified)" title="Skilled Trades Ontario certified" width="280" height="180" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="cred-sponsor-card">
+                        <h2 class="cred-sponsor-title">Affiliated With</h2>
+                        <div class="fade-rotator" id="sponsored-rotator" aria-label="Affiliated logos rotating images">
+                            <img src="images/affiliated_logo_1.png" alt="Affiliated brand 1 (logo placeholder)" title="Affiliated brand 1" width="284" height="177" loading="lazy" class="is-active">
+                            <img src="images/affiliated_logo_2.png" alt="Affiliated brand 2 (logo placeholder)" title="Affiliated brand 2" width="830" height="622" loading="lazy">
+                            <img src="images/affiliated_logo_3.png" alt="Affiliated brand 3 (logo placeholder)" title="Affiliated brand 3" width="3840" height="2160" loading="lazy">
+                            <img src="images/affiliated_logo_4.png" alt="Affiliated brand 4 (logo placeholder)" title="Affiliated brand 4" width="1200" height="1200" loading="lazy">
+                            <img src="images/affiliated_logo_5.png" alt="Affiliated brand 5 (logo placeholder)" title="Affiliated brand 5" width="300" height="168" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="section section-dark">
+            <!-- Create a free Google Reviews widget at elfsight.com and replace the class below with your widget's class -->
+            <script src="https://elfsightcdn.com/platform.js" async></script>
+            <div class="container">
+                <h2 class="section-title">Customer Testimonials</h2>
+            </div>
+            <div class="elfsight-app-REPLACE-WITH-YOUR-WIDGET-ID" data-elfsight-app-lazy></div>
+        </section>
+
+        <section id="contact" class="section section-dark">
+            <div class="container contact-grid">
+                <div>
+                    <h2 class="section-title">Request a Quote</h2>
+                    <p class="section-subtitle">
+                        Tell us about your issues and we’ll get back to you as soon as possible.
+                    </p>
+                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+                        <!-- Get a free access key at web3forms.com and paste it below -->
+                        <input type="hidden" name="access_key" value="REPLACE_WITH_YOUR_WEB3FORMS_ACCESS_KEY">
+
+                        <div class="form-row">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="phone">Phone</label>
+                            <input id="phone" name="phone" type="tel" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email">
+                        </div>
+                        <div class="form-row">
+                            <label for="message">How can we help?</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer footer-expanded">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-expanded-grid">
+                    <div class="footer-block">
+                        <h3 class="footer-block-title">Explore Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="electrical.html">Electrical Services</a></li>
+                            <li><a href="plumbing.html">Plumbing Services</a></li>
+                            <li><a href="heating.html">Heating Services</a></li>
+                            <li><a href="cooling.html">Cooling &amp; Air Conditioning</a></li>
+                            <li><a href="heat-pumps.html">Heat Pump Systems</a></li>
+                            <li><a href="indoor-air-quality.html">Indoor Air Quality</a></li>
+                            <li><a href="ductwork.html">Ductwork &amp; Ventilation</a></li>
+                            <li><a href="water-heating.html">Water Heating</a></li>
+                            <li><a href="smart-home.html">Smart Home &amp; Controls</a></li>
+                            <li><a href="maintenance.html">Maintenance &amp; Service Plans</a></li>
+                            <li><a href="emergency.html">Emergency &amp; Priority Response</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-block footer-contact">
+                        <h3 class="footer-block-title">
+                            Contact Us
+                        </h3>
+
+                        <p>Email: info@hammermechanical.ca</p>
+                        <p>Phone: (905) 555-0123</p>
+                        <p>Address: 123 Example Street (Unit 1), Hamilton, Ontario</p>
+
+                        <div class="footer-pills" aria-label="Quick contact actions">
+                            <a class="footer-pill" href="tel:19055550123" aria-label="Call Hammer Mechanical">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.07 21 3 13.93 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                </svg>
+                                Call
+                            </a>
+
+                            <a class="footer-pill" href="mailto:info@hammermechanical.ca" aria-label="Email Hammer Mechanical">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                                </svg>
+                                Email
+                            </a>
+
+                            <a class="footer-pill"
+                               href="https://www.google.com/maps/search/?api=1&query=Hamilton%2C+Ontario"
+                               target="_blank" rel="noopener" aria-label="Open address in Google Maps">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M12 2c-3.86 0-7 3.14-7 7 0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
+                                </svg>
+                                Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top:1.75rem; text-align:center;">
+                    <p style="margin:0;"><strong>© <span id="year"></span> Hammer Mechanical.</strong> All rights reserved.</p>
+                    <p class="footer-small" style="margin:0.35rem 0 0;">One Call. Every Trade.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+    <script>
+        (function () {
+            function startFadeRotator(rotatorId, intervalMs) {
+                const root = document.getElementById(rotatorId);
+                if (!root) return;
+
+                const images = Array.from(root.querySelectorAll("img"));
+                if (images.length <= 1) return;
+
+                let index = images.findIndex(img => img.classList.contains("is-active"));
+                if (index < 0) index = 0;
+
+                images.forEach((img, i) => {
+                    if (i === index) img.classList.add("is-active");
+                    else img.classList.remove("is-active");
+                });
+
+                setInterval(() => {
+                    const next = (index + 1) % images.length;
+                    images[index].classList.remove("is-active");
+                    images[next].classList.add("is-active");
+                    index = next;
+                }, intervalMs);
+            }
+
+            startFadeRotator("credentials-rotator", 3500);
+            startFadeRotator("sponsored-rotator", 3500);
+        })();
+    </script>
+
+    <div class="deals-popup" id="deals-popup" role="dialog" aria-modal="true" aria-label="Hammer Mechanical deals" aria-hidden="true">
+        <div class="deals-popup-backdrop" data-popup-close></div>
+        <div class="snow-burst" aria-hidden="true">
+            <span class="snow-flake" style="--sx:220px;--sy:0;--dx:420px;--dy:0;--d:0.18s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:91px;--dx:405px;--dy:168px;--d:0.24s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:220px;--dx:361px;--dy:361px;--d:0.16s">&#9889;</span>
+            <span class="snow-flake" style="--sx:108px;--sy:260px;--dx:184px;--dy:445px;--d:0.28s">&#9889;</span>
+            <span class="snow-flake" style="--sx:0;--sy:260px;--dx:0;--dy:460px;--d:0.20s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-108px;--sy:260px;--dx:-184px;--dy:445px;--d:0.32s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:220px;--dx:-361px;--dy:361px;--d:0.22s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:91px;--dx:-405px;--dy:168px;--d:0.34s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:0;--dx:-420px;--dy:0;--d:0.18s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:-91px;--dx:-405px;--dy:-168px;--d:0.38s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:-220px;--dx:-361px;--dy:-361px;--d:0.26s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-108px;--sy:-260px;--dx:-184px;--dy:-445px;--d:0.30s">&#9889;</span>
+            <span class="snow-flake" style="--sx:0;--sy:-260px;--dx:0;--dy:-460px;--d:0.22s">&#9889;</span>
+            <span class="snow-flake" style="--sx:108px;--sy:-260px;--dx:184px;--dy:-445px;--d:0.36s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:-220px;--dx:361px;--dy:-361px;--d:0.24s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:-91px;--dx:405px;--dy:-168px;--d:0.40s">&#9889;</span>
+        </div>
+        <div class="deals-popup-card" role="document">
+            <button class="deals-popup-close" type="button" aria-label="Close" data-popup-close>&times;</button>
+            <img src="images/hammer_deal_ad.jpg" alt="Hammer Mechanical limited time offer (deal ad image placeholder — add your current promotion here)" title="Hammer Mechanical Limited Time Offer" width="1024" height="1024" loading="eager" fetchpriority="low" class="deals-popup-image">
+            <div class="popup-cta">
+                <p class="popup-cta-text">Call Us Now To Receive Your Limited Time Offer!</p>
+                <a href="tel:19055550123" class="header-call-btn popup-call-btn" aria-label="Call (905) 555-0123">
+                    <svg class="header-call-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.58l2.2-2.21c.28-.27.36-.66.25-1.01C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/>
+                    </svg>
+                    <span class="header-call-text">
+                        <span class="header-call-number">(905) 555-0123</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

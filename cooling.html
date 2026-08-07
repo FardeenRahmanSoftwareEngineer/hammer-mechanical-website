@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cooling &amp; Air Conditioning | Hammer Mechanical</title>
+    <meta name="description" content="Air conditioning services in Hamilton: central AC installation and repair, ductless mini-splits, refrigerant service, and seasonal maintenance." />
+    <link rel="canonical" href="https://hammermechanical.ca/cooling" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <meta name="theme-color" content="#050708">
+
+    <style>
+        .service-page-hero {
+            display: grid;
+            gap: 1.75rem;
+            align-items: start;
+        }
+
+        @media (min-width: 900px) {
+            .service-page-hero {
+                grid-template-columns: minmax(0,1.35fr) minmax(0,1fr);
+                gap: 2.25rem;
+            }
+        }
+
+        .service-breadcrumb {
+            margin: 0 0 0.75rem;
+            font-size: 0.95rem;
+            text-align: left;
+        }
+
+            .service-breadcrumb a {
+                color: var(--blue-light);
+                text-decoration: none;
+            }
+
+                .service-breadcrumb a:hover {
+                    text-decoration: underline;
+                }
+
+        .service-page-title {
+            margin: 0 0 0.65rem;
+            font-size: clamp(2rem,2.2vw + 1.2rem,2.8rem);
+            text-align: left;
+        }
+
+        .service-page-subtitle {
+            margin: 0 0 1.25rem;
+            color: #d7e0e6;
+            max-width: 46rem;
+            text-align: left;
+        }
+
+        .service-page-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1.1rem;
+        }
+
+        .service-detail {
+            padding: 3rem 0;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+            .service-detail:first-of-type {
+                border-top: none;
+            }
+
+        .service-detail-inner {
+            display: grid;
+            gap: 1.25rem;
+            align-items: center;
+        }
+
+        @media (min-width: 900px) {
+            .service-detail-inner {
+                grid-template-columns: minmax(0,1.2fr) minmax(0,1fr);
+                gap: 2rem;
+            }
+        }
+
+        .service-detail.alt .service-detail-inner {
+            direction: rtl;
+        }
+
+        .service-detail.alt .service-detail-content,
+        .service-detail.alt .service-detail-media {
+            direction: ltr;
+        }
+
+        .service-detail-content h2 {
+            margin: 0 0 0.6rem;
+            font-size: 1.35rem;
+            text-align: left;
+        }
+
+        .service-detail-content p {
+            margin: 0;
+            color: #d0d7dd;
+            line-height: 1.7;
+            text-align: left;
+        }
+
+        .service-detail-media {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: #0b0f13;
+            box-shadow: var(--shadow-soft);
+            aspect-ratio: 4 / 3;
+        }
+
+            .service-detail-media img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+            }
+
+        .mini-note {
+            margin-top: 1rem;
+            padding: 1rem 1.1rem;
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(255,255,255,0.06);
+            background: rgba(9,12,16,0.65);
+            color: #cfd8de;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body class="theme-blue-first">
+
+    <header class="site-header">
+        <div class="header-top">
+            <div class="header-top-row">
+                <a href="tel:19055550123" class="header-call-btn" aria-label="Call (905) 555-0123">
+                    <img src="images/call_now_button.png" alt="Call Now: (905) 555-0123" title="Call (905) 555-0123" class="header-call-img" width="480" height="271" loading="eager">
+                </a>
+                <a href="index.html#top" class="brand">
+                    <img src="images/hammer_logo.png" alt="Hammer Mechanical logo" title="Hammer Mechanical" width="515" height="517" loading="eager" class="logo">
+                    <span class="brand-tagline">One Call. Every Trade.</span>
+                </a>
+                <button class="header-deals" type="button" aria-expanded="false" aria-controls="deals-popup" aria-label="Limited time offer, click to view deals">
+                    <img src="images/limited_time_offer_button.png" alt="Limited Time Offer: click to view deals" title="Limited Time Offer" class="header-deals-img" width="480" height="361" loading="eager">
+                </button>
+            </div>
+            <div class="services-marquee" aria-label="Our services">
+                <div class="marquee-track">
+                    <span class="marquee-item">Electrical</span>
+                    <span class="marquee-item">Plumbing</span>
+                    <span class="marquee-item">Heating</span>
+                    <span class="marquee-item">Cooling &amp; Air Conditioning</span>
+                    <span class="marquee-item">Heat Pumps</span>
+                    <span class="marquee-item">Smart Home &amp; Controls</span>
+                    <span class="marquee-item">Water Heating</span>
+                    <span class="marquee-item">Ductwork &amp; Ventilation</span>
+                    <span class="marquee-item">Maintenance &amp; Service Plans</span>
+                    <span class="marquee-item">Indoor Air Quality</span>
+                    <span class="marquee-item">Emergency &amp; Priority Response</span>
+                    <span class="marquee-item" aria-hidden="true">Electrical</span>
+                    <span class="marquee-item" aria-hidden="true">Plumbing</span>
+                    <span class="marquee-item" aria-hidden="true">Heating</span>
+                    <span class="marquee-item" aria-hidden="true">Cooling &amp; Air Conditioning</span>
+                    <span class="marquee-item" aria-hidden="true">Heat Pumps</span>
+                    <span class="marquee-item" aria-hidden="true">Smart Home &amp; Controls</span>
+                    <span class="marquee-item" aria-hidden="true">Water Heating</span>
+                    <span class="marquee-item" aria-hidden="true">Ductwork &amp; Ventilation</span>
+                    <span class="marquee-item" aria-hidden="true">Maintenance &amp; Service Plans</span>
+                    <span class="marquee-item" aria-hidden="true">Indoor Air Quality</span>
+                    <span class="marquee-item" aria-hidden="true">Emergency &amp; Priority Response</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container header-bottom-inner">
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+                <nav class="nav">
+                    <ul>
+                        <li data-icon="why"><a href="index.html#why">Why Choose Us</a></li>
+                        <li data-icon="services"><a href="index.html#services">Services</a></li>
+                        <li data-icon="gallery"><a href="index.html#gallery">Gallery</a></li>
+                        <li data-icon="reviews"><a href="index.html#reviews">Testimonials</a></li>
+                        <li data-icon="contact"><a href="index.html#contact" class="nav-cta">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="section section-dark">
+            <div class="container">
+                <div class="service-page-hero">
+                    <div>
+                        <h1 class="service-page-title">Cooling &amp; Air Conditioning in Hamilton</h1>
+                        <p class="service-page-subtitle">
+                            Certified HVAC technicians keeping Hamilton homes cool through humid Southern Ontario summers, with right-sized installs, fast repairs and maintenance that keeps your AC ready for the heat.
+                        </p>
+
+                        <div class="service-page-actions">
+                            <a href="tel:19055550123" class="btn btn-primary">Call Now: (905) 555-0123</a>
+                            <a href="index.html#contact" class="btn btn-outline">Request a Quote</a>
+                        </div>
+
+                        <div class="mini-note" id="random-tip"></div>
+                    </div>
+
+                    <div class="service-detail-media" aria-label="Cooling service photo">
+                        <img src="images/cooling_page_hero_photo.jpg" alt="Cooling and air conditioning services (image placeholder)" title="Cooling and air conditioning services (image placeholder)" width="570" height="757" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Central AC Installation</h2>
+                        <p>
+                            We size every central air conditioner to your home's square footage, insulation and layout, then install it for
+                            quiet operation and consistent cooling on the hottest Hamilton afternoons. A properly matched system pulls humidity
+                            out of the air, cools faster, and runs years longer than an oversized guess. You get clear options and honest
+                            pricing before any equipment is ordered.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/central_ac_installation_photo.jpg" alt="Central air conditioner installation (image placeholder)" title="Central AC installation" width="510" height="543" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark alt">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Air Conditioner Repair &amp; Troubleshooting</h2>
+                        <p>
+                            Warm air from the vents, a unit that won't start, or new rattles and buzzing all have a real cause — and our
+                            technicians find it instead of swapping parts on a hunch. We explain what failed, what the fix costs, and whether
+                            repair or replacement makes better financial sense for your system's age.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/ac_repair_troubleshooting_photo.jpg" alt="Air conditioner repair and troubleshooting (image placeholder)" title="AC repair and troubleshooting" width="1200" height="803" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Heat Pump Installation &amp; Service</h2>
+                        <p>
+                            A modern heat pump cools in summer and heats in winter from one efficient system, which makes it a smart fit for
+                            many Southern Ontario homes. We install and service heat pumps with careful attention to sizing, airflow and
+                            controls, and when performance drifts we check refrigerant charge, pressures and airflow to bring comfort back.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/heat_pump_cooling_photo.jpg" alt="Heat pump installation and service (image placeholder)" title="Heat pump installation and service" width="1200" height="740" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark alt">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Ductless Mini-Split Systems</h2>
+                        <p>
+                            Finished basements, additions, and older Hamilton homes without ductwork are exactly where ductless mini-splits
+                            shine. We plan head placement for balanced, quiet cooling and install every line set cleanly, and if an existing
+                            unit underperforms we diagnose the controls, drainage, coils and refrigerant to restore full output.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/ductless_mini_split_photo.jpg" alt="Ductless mini-split system installation (image placeholder)" title="Ductless mini-split installation" width="599" height="800" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Refrigerant Leak Detection &amp; Recharge</h2>
+                        <p>
+                            Low refrigerant means weak cooling, rising hydro bills, and a compressor working far harder than it should.
+                            We trace the lines to locate the actual leak, repair it so the system holds its charge, then recharge to
+                            manufacturer specifications and verify cooling performance before we leave.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/refrigerant_leak_service_photo.jpg" alt="Refrigerant leak detection and recharge (image placeholder)" title="Refrigerant leak detection and recharge" width="1000" height="666" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark alt">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>AC Coil Cleaning &amp; Replacement</h2>
+                        <p>
+                            Your coils are the heat exchangers that make cooling possible, and a season of dust, cottonwood fluff and grass
+                            clippings can choke them badly enough to cause icing and higher bills. We clean condenser and evaporator coils
+                            safely to restore heat transfer, and if a coil is corroded or leaking we lay out repair-versus-replacement
+                            options honestly.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/ac_coil_cleaning_photo.jpg" alt="AC coil cleaning and replacement (image placeholder)" title="AC coil cleaning and replacement" width="1000" height="667" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Seasonal AC Maintenance Plans</h2>
+                        <p>
+                            A spring tune-up is the cheapest cooling insurance you can buy: we test electrical components, clean key parts,
+                            confirm airflow and refrigerant charge, and catch small problems before July heat turns them into breakdowns.
+                            Pair it with a Hammer Mechanical service plan and your whole home's systems get looked after on one schedule.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/seasonal_ac_maintenance_photo.jpg" alt="Seasonal air conditioner maintenance (image placeholder)" title="Seasonal AC maintenance" width="1200" height="800" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer footer-expanded">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-expanded-grid">
+                    <div class="footer-block">
+                        <h3 class="footer-block-title">Explore Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="electrical.html">Electrical Services</a></li>
+                            <li><a href="plumbing.html">Plumbing Services</a></li>
+                            <li><a href="heating.html">Heating Services</a></li>
+                            <li><a href="cooling.html">Cooling &amp; Air Conditioning</a></li>
+                            <li><a href="heat-pumps.html">Heat Pump Systems</a></li>
+                            <li><a href="indoor-air-quality.html">Indoor Air Quality</a></li>
+                            <li><a href="ductwork.html">Ductwork &amp; Ventilation</a></li>
+                            <li><a href="water-heating.html">Water Heating</a></li>
+                            <li><a href="smart-home.html">Smart Home &amp; Controls</a></li>
+                            <li><a href="maintenance.html">Maintenance &amp; Service Plans</a></li>
+                            <li><a href="emergency.html">Emergency &amp; Priority Response</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-block footer-contact">
+                        <h3 class="footer-block-title">Contact Us</h3>
+                        <p>Email: info@hammermechanical.ca</p>
+                        <p>Phone: (905) 555-0123</p>
+                        <p>Address: 123 Example Street (Unit 1), Hamilton, Ontario</p>
+                        <div class="footer-pills" aria-label="Quick contact actions">
+                            <a class="footer-pill" href="tel:19055550123" aria-label="Call Hammer Mechanical">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.07 21 3 13.93 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                </svg>
+                                Call
+                            </a>
+                            <a class="footer-pill" href="mailto:info@hammermechanical.ca" aria-label="Email Hammer Mechanical">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                                </svg>
+                                Email
+                            </a>
+                            <a class="footer-pill"
+                               href="https://www.google.com/maps/search/?api=1&query=Hamilton%2C+Ontario"
+                               target="_blank" rel="noopener" aria-label="Open address in Google Maps">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M12 2c-3.86 0-7 3.14-7 7 0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
+                                </svg>
+                                Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top:1.75rem; text-align:center;">
+                    <p style="margin:0;"><strong>© <span id="year"></span> Hammer Mechanical.</strong> All rights reserved.</p>
+                    <p class="footer-small" style="margin:0.35rem 0 0;">Serving Hamilton &amp; Southern Ontario</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script>
+        (function () {
+            const tips = [
+                "Tip: Change or check your furnace filter monthly in summer — the AC uses the same blower, and a clogged filter can freeze the coil.",
+                "Tip: Keep at least 60 cm of clear space around your outdoor unit and gently rinse the fins each spring for better airflow.",
+                "Tip: Ice on the refrigerant lines means shut the system off — running it frozen risks expensive compressor damage.",
+                "Tip: If your home feels cool but sticky, the system may be short-cycling; longer, slower run times remove more humidity.",
+                "Tip: Setting the thermostat drastically lower doesn't cool the house faster — it just runs longer past your target."
+            ];
+
+            const tipEl = document.getElementById("random-tip");
+            if (!tipEl) return;
+
+            tipEl.textContent = tips[Math.floor(Math.random() * tips.length)];
+        })();
+    </script>
+
+    <div class="deals-popup" id="deals-popup" role="dialog" aria-modal="true" aria-label="Hammer Mechanical deals" aria-hidden="true">
+        <div class="deals-popup-backdrop" data-popup-close></div>
+        <div class="snow-burst" aria-hidden="true">
+            <span class="snow-flake" style="--sx:220px;--sy:0;--dx:420px;--dy:0;--d:0.18s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:91px;--dx:405px;--dy:168px;--d:0.24s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:220px;--dx:361px;--dy:361px;--d:0.16s">&#9889;</span>
+            <span class="snow-flake" style="--sx:108px;--sy:260px;--dx:184px;--dy:445px;--d:0.28s">&#9889;</span>
+            <span class="snow-flake" style="--sx:0;--sy:260px;--dx:0;--dy:460px;--d:0.20s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-108px;--sy:260px;--dx:-184px;--dy:445px;--d:0.32s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:220px;--dx:-361px;--dy:361px;--d:0.22s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:91px;--dx:-405px;--dy:168px;--d:0.34s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:0;--dx:-420px;--dy:0;--d:0.18s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:-91px;--dx:-405px;--dy:-168px;--d:0.38s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:-220px;--dx:-361px;--dy:-361px;--d:0.26s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-108px;--sy:-260px;--dx:-184px;--dy:-445px;--d:0.30s">&#9889;</span>
+            <span class="snow-flake" style="--sx:0;--sy:-260px;--dx:0;--dy:-460px;--d:0.22s">&#9889;</span>
+            <span class="snow-flake" style="--sx:108px;--sy:-260px;--dx:184px;--dy:-445px;--d:0.36s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:-220px;--dx:361px;--dy:-361px;--d:0.24s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:-91px;--dx:405px;--dy:-168px;--d:0.40s">&#9889;</span>
+        </div>
+        <div class="deals-popup-card" role="document">
+            <button class="deals-popup-close" type="button" aria-label="Close" data-popup-close>&times;</button>
+            <img src="images/hammer_deal_ad.jpg" alt="Hammer Mechanical limited time offer (deal ad image placeholder — add your current promotion here)" title="Hammer Mechanical Limited Time Offer" width="1024" height="1024" loading="eager" fetchpriority="low" class="deals-popup-image">
+            <div class="popup-cta">
+                <p class="popup-cta-text">Call Us Now To Receive Your Limited Time Offer!</p>
+                <a href="tel:19055550123" class="header-call-btn popup-call-btn" aria-label="Call (905) 555-0123">
+                    <svg class="header-call-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.58l2.2-2.21c.28-.27.36-.66.25-1.01C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/>
+                    </svg>
+                    <span class="header-call-text">
+                        <span class="header-call-number">(905) 555-0123</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

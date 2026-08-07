@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indoor Air Quality | Hammer Mechanical</title>
+    <meta name="description" content="Indoor air quality services in Hamilton: air purification, HEPA filtration, UV sanitizers, humidifiers, and HRV/ERV ventilation." />
+    <link rel="canonical" href="https://hammermechanical.ca/indoor-air-quality" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <meta name="theme-color" content="#050708">
+
+    <style>
+        .service-page-hero {
+            display: grid;
+            gap: 1.75rem;
+            align-items: start;
+        }
+
+        @media (min-width: 900px) {
+            .service-page-hero {
+                grid-template-columns: minmax(0,1.35fr) minmax(0,1fr);
+                gap: 2.25rem;
+            }
+        }
+
+        .service-breadcrumb {
+            margin: 0 0 0.75rem;
+            font-size: 0.95rem;
+            text-align: left;
+        }
+
+            .service-breadcrumb a {
+                color: var(--blue-light);
+                text-decoration: none;
+            }
+
+                .service-breadcrumb a:hover {
+                    text-decoration: underline;
+                }
+
+        .service-page-title {
+            margin: 0 0 0.65rem;
+            font-size: clamp(2rem,2.2vw + 1.2rem,2.8rem);
+            text-align: left;
+        }
+
+        .service-page-subtitle {
+            margin: 0 0 1.25rem;
+            color: #d7e0e6;
+            max-width: 46rem;
+            text-align: left;
+        }
+
+        .service-page-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1.1rem;
+        }
+
+        .service-detail {
+            padding: 3rem 0;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+            .service-detail:first-of-type {
+                border-top: none;
+            }
+
+        .service-detail-inner {
+            display: grid;
+            gap: 1.25rem;
+            align-items: center;
+        }
+
+        @media (min-width: 900px) {
+            .service-detail-inner {
+                grid-template-columns: minmax(0,1.2fr) minmax(0,1fr);
+                gap: 2rem;
+            }
+        }
+
+        .service-detail.alt .service-detail-inner {
+            direction: rtl;
+        }
+
+        .service-detail.alt .service-detail-content,
+        .service-detail.alt .service-detail-media {
+            direction: ltr;
+        }
+
+        .service-detail-content h2 {
+            margin: 0 0 0.6rem;
+            font-size: 1.35rem;
+            text-align: left;
+        }
+
+        .service-detail-content p {
+            margin: 0;
+            color: #d0d7dd;
+            line-height: 1.7;
+            text-align: left;
+        }
+
+        .service-detail-media {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: #0b0f13;
+            box-shadow: var(--shadow-soft);
+            aspect-ratio: 4 / 3;
+        }
+
+            .service-detail-media img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+            }
+
+        .mini-note {
+            margin-top: 1rem;
+            padding: 1rem 1.1rem;
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(255,255,255,0.06);
+            background: rgba(9,12,16,0.65);
+            color: #cfd8de;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body class="theme-blue-first">
+
+    <header class="site-header">
+        <div class="header-top">
+            <div class="header-top-row">
+                <a href="tel:19055550123" class="header-call-btn" aria-label="Call (905) 555-0123">
+                    <img src="images/call_now_button.png" alt="Call Now: (905) 555-0123" title="Call (905) 555-0123" class="header-call-img" width="480" height="271" loading="eager">
+                </a>
+                <a href="index.html#top" class="brand">
+                    <img src="images/hammer_logo.png" alt="Hammer Mechanical logo" title="Hammer Mechanical" width="515" height="517" loading="eager" class="logo">
+                    <span class="brand-tagline">One Call. Every Trade.</span>
+                </a>
+                <button class="header-deals" type="button" aria-expanded="false" aria-controls="deals-popup" aria-label="Limited time offer, click to view deals">
+                    <img src="images/limited_time_offer_button.png" alt="Limited Time Offer: click to view deals" title="Limited Time Offer" class="header-deals-img" width="480" height="361" loading="eager">
+                </button>
+            </div>
+            <div class="services-marquee" aria-label="Our services">
+                <div class="marquee-track">
+                    <span class="marquee-item">Electrical</span>
+                    <span class="marquee-item">Plumbing</span>
+                    <span class="marquee-item">Heating</span>
+                    <span class="marquee-item">Cooling &amp; Air Conditioning</span>
+                    <span class="marquee-item">Heat Pumps</span>
+                    <span class="marquee-item">Smart Home &amp; Controls</span>
+                    <span class="marquee-item">Water Heating</span>
+                    <span class="marquee-item">Ductwork &amp; Ventilation</span>
+                    <span class="marquee-item">Maintenance &amp; Service Plans</span>
+                    <span class="marquee-item">Indoor Air Quality</span>
+                    <span class="marquee-item">Emergency &amp; Priority Response</span>
+                    <span class="marquee-item" aria-hidden="true">Electrical</span>
+                    <span class="marquee-item" aria-hidden="true">Plumbing</span>
+                    <span class="marquee-item" aria-hidden="true">Heating</span>
+                    <span class="marquee-item" aria-hidden="true">Cooling &amp; Air Conditioning</span>
+                    <span class="marquee-item" aria-hidden="true">Heat Pumps</span>
+                    <span class="marquee-item" aria-hidden="true">Smart Home &amp; Controls</span>
+                    <span class="marquee-item" aria-hidden="true">Water Heating</span>
+                    <span class="marquee-item" aria-hidden="true">Ductwork &amp; Ventilation</span>
+                    <span class="marquee-item" aria-hidden="true">Maintenance &amp; Service Plans</span>
+                    <span class="marquee-item" aria-hidden="true">Indoor Air Quality</span>
+                    <span class="marquee-item" aria-hidden="true">Emergency &amp; Priority Response</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container header-bottom-inner">
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+                <nav class="nav">
+                    <ul>
+                        <li data-icon="why"><a href="index.html#why">Why Choose Us</a></li>
+                        <li data-icon="services"><a href="index.html#services">Services</a></li>
+                        <li data-icon="gallery"><a href="index.html#gallery">Gallery</a></li>
+                        <li data-icon="reviews"><a href="index.html#reviews">Testimonials</a></li>
+                        <li data-icon="contact"><a href="index.html#contact" class="nav-cta">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="section section-dark">
+            <div class="container">
+                <div class="service-page-hero">
+                    <div>
+                        <h1 class="service-page-title">Indoor Air Quality in Hamilton</h1>
+                        <p class="service-page-subtitle">
+                            Breathe easier at home with air purification, HEPA filtration, humidity control, and fresh-air ventilation, installed and balanced by one licensed local team.
+                        </p>
+
+                        <div class="service-page-actions">
+                            <a href="tel:19055550123" class="btn btn-primary">Call Now: (905) 555-0123</a>
+                            <a href="index.html#contact" class="btn btn-outline">Request a Quote</a>
+                        </div>
+
+                        <div class="mini-note" id="random-tip"></div>
+                    </div>
+
+                    <div class="service-detail-media" aria-label="Indoor air quality photo">
+                        <img src="images/indoor_air_quality_hero_photo.jpg" alt="Indoor air quality services (image placeholder)" title="Indoor air quality services (image placeholder)" width="1015" height="760" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Whole-Home Air Purification Systems</h2>
+                        <p>
+                            A whole-home purifier mounts right into your ductwork and cleans the air in every room, not just wherever a portable unit happens to sit.
+                            We match the system to your furnace or air handler and set it up so airflow stays strong and quiet.
+                            The result is noticeably fresher air throughout your Hamilton home, all season long.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/whole_home_air_purifier_photo.jpg" alt="Whole-home air purification system (image placeholder)" title="Whole-home air purification system (image placeholder)" width="1200" height="800" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark alt">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>HEPA Filtration Upgrades</h2>
+                        <p>
+                            HEPA-grade filtration captures the fine dust, pollen, and pet dander that standard furnace filters let through.
+                            Because high-efficiency filters can choke an undersized system, we check static pressure and compatibility first, then install a setup that cleans the air without straining your equipment.
+                            We'll also leave you with a simple filter-change schedule that actually fits your home.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/hepa_filter_upgrade_photo.jpg" alt="HEPA filtration upgrade (image placeholder)" title="HEPA filtration upgrade (image placeholder)" width="789" height="526" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>UV Air Sanitizers</h2>
+                        <p>
+                            UV lamps installed inside your ductwork or over the evaporator coil help keep mould and bacteria from building up where you can't see it.
+                            We position each lamp correctly and wire it safely so it works with your filtration, not instead of it.
+                            It's a smart add-on for homes fighting persistent odours or coil buildup.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/uv_air_sanitizer_photo.jpg" alt="UV air sanitizer installation (image placeholder)" title="UV air sanitizer installation (image placeholder)" width="800" height="483" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark alt">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Humidifier &amp; Dehumidifier Installation</h2>
+                        <p>
+                            Southern Ontario swings from bone-dry winters to sticky, humid summers, and your home feels every bit of it.
+                            We install whole-home humidifiers to tame static and dry sinuses in January, and dehumidifiers to protect basements and finishes in July.
+                            Every unit is sized and dialled in so it manages moisture without overworking your HVAC system.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/humidifier_installation_photo.jpg" alt="Humidifier and dehumidifier installation (image placeholder)" title="Humidifier and dehumidifier installation (image placeholder)" width="800" height="700" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-light">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Ventilation Systems (HRV / ERV)</h2>
+                        <p>
+                            Today's tightly sealed homes hold heat well but trap stale air and moisture along with it.
+                            An HRV or ERV brings in a steady supply of fresh outdoor air while recovering most of the energy from the air it exhausts, so comfort doesn't go out the window.
+                            We install and balance these systems for even, code-compliant ventilation in every room.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/hrv_erv_ventilation_photo.jpg" alt="HRV/ERV ventilation system (image placeholder)" title="HRV/ERV ventilation system (image placeholder)" width="1200" height="800" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail section-dark alt">
+            <div class="container">
+                <div class="service-detail-inner">
+                    <div class="service-detail-content">
+                        <h2>Air Quality Assessments</h2>
+                        <p>
+                            Constant dust, lingering odours, or allergy flare-ups usually trace back to airflow, filtration, humidity, or ventilation, and we test all four.
+                            Our technicians walk your home, measure what matters, and explain exactly what's driving the problem.
+                            You get straightforward recommendations with upfront pricing, whether the fix is a better filter or a full IAQ plan.
+                        </p>
+                    </div>
+                    <div class="service-detail-media">
+                        <img src="images/air_quality_assessment_photo.jpg" alt="Air quality assessment (image placeholder)" title="Air quality assessment (image placeholder)" width="450" height="300" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer footer-expanded">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-expanded-grid">
+                    <div class="footer-block">
+                        <h3 class="footer-block-title">Explore Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="electrical.html">Electrical Services</a></li>
+                            <li><a href="plumbing.html">Plumbing Services</a></li>
+                            <li><a href="heating.html">Heating Services</a></li>
+                            <li><a href="cooling.html">Cooling &amp; Air Conditioning</a></li>
+                            <li><a href="heat-pumps.html">Heat Pump Systems</a></li>
+                            <li><a href="indoor-air-quality.html">Indoor Air Quality</a></li>
+                            <li><a href="ductwork.html">Ductwork &amp; Ventilation</a></li>
+                            <li><a href="water-heating.html">Water Heating</a></li>
+                            <li><a href="smart-home.html">Smart Home &amp; Controls</a></li>
+                            <li><a href="maintenance.html">Maintenance &amp; Service Plans</a></li>
+                            <li><a href="emergency.html">Emergency &amp; Priority Response</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-block footer-contact">
+                        <h3 class="footer-block-title">Contact Us</h3>
+                        <p>Email: info@hammermechanical.ca</p>
+                        <p>Phone: (905) 555-0123</p>
+                        <p>Address: 123 Example Street (Unit 1), Hamilton, Ontario</p>
+                        <div class="footer-pills" aria-label="Quick contact actions">
+                            <a class="footer-pill" href="tel:19055550123" aria-label="Call Hammer Mechanical">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.07 21 3 13.93 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                </svg>
+                                Call
+                            </a>
+                            <a class="footer-pill" href="mailto:info@hammermechanical.ca" aria-label="Email Hammer Mechanical">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                                </svg>
+                                Email
+                            </a>
+                            <a class="footer-pill"
+                               href="https://www.google.com/maps/search/?api=1&query=Hamilton%2C+Ontario"
+                               target="_blank" rel="noopener" aria-label="Open address in Google Maps">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path fill="currentColor" d="M12 2c-3.86 0-7 3.14-7 7 0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
+                                </svg>
+                                Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top:1.75rem; text-align:center;">
+                    <p style="margin:0;"><strong>© <span id="year"></span> Hammer Mechanical.</strong> All rights reserved.</p>
+                    <p class="footer-small" style="margin:0.35rem 0 0;">Serving Hamilton &amp; Southern Ontario</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script>
+        (function () {
+            const tips = [
+                "Tip: If dust reappears within a day of cleaning, your filter or ductwork is likely the culprit — not your housekeeping.",
+                "Tip: Aim for 30–50% indoor humidity; below that you get static and dry skin, above it you invite mould.",
+                "Tip: Run your furnace fan on low continuously during allergy season so air passes through the filter more often.",
+                "Tip: A musty basement smell is a humidity problem — a dehumidifier fixes the cause, air fresheners only hide it.",
+                "Tip: If your windows fog up in winter, your home may need balanced ventilation like an HRV, not just less humidifier."
+            ];
+
+            const tipEl = document.getElementById("random-tip");
+            if (!tipEl) return;
+
+            tipEl.textContent = tips[Math.floor(Math.random() * tips.length)];
+        })();
+    </script>
+
+    <div class="deals-popup" id="deals-popup" role="dialog" aria-modal="true" aria-label="Hammer Mechanical deals" aria-hidden="true">
+        <div class="deals-popup-backdrop" data-popup-close></div>
+        <div class="snow-burst" aria-hidden="true">
+            <span class="snow-flake" style="--sx:220px;--sy:0;--dx:420px;--dy:0;--d:0.18s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:91px;--dx:405px;--dy:168px;--d:0.24s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:220px;--dx:361px;--dy:361px;--d:0.16s">&#9889;</span>
+            <span class="snow-flake" style="--sx:108px;--sy:260px;--dx:184px;--dy:445px;--d:0.28s">&#9889;</span>
+            <span class="snow-flake" style="--sx:0;--sy:260px;--dx:0;--dy:460px;--d:0.20s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-108px;--sy:260px;--dx:-184px;--dy:445px;--d:0.32s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:220px;--dx:-361px;--dy:361px;--d:0.22s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:91px;--dx:-405px;--dy:168px;--d:0.34s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:0;--dx:-420px;--dy:0;--d:0.18s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:-91px;--dx:-405px;--dy:-168px;--d:0.38s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-220px;--sy:-220px;--dx:-361px;--dy:-361px;--d:0.26s">&#9889;</span>
+            <span class="snow-flake" style="--sx:-108px;--sy:-260px;--dx:-184px;--dy:-445px;--d:0.30s">&#9889;</span>
+            <span class="snow-flake" style="--sx:0;--sy:-260px;--dx:0;--dy:-460px;--d:0.22s">&#9889;</span>
+            <span class="snow-flake" style="--sx:108px;--sy:-260px;--dx:184px;--dy:-445px;--d:0.36s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:-220px;--dx:361px;--dy:-361px;--d:0.24s">&#9889;</span>
+            <span class="snow-flake" style="--sx:220px;--sy:-91px;--dx:405px;--dy:-168px;--d:0.40s">&#9889;</span>
+        </div>
+        <div class="deals-popup-card" role="document">
+            <button class="deals-popup-close" type="button" aria-label="Close" data-popup-close>&times;</button>
+            <img src="images/hammer_deal_ad.jpg" alt="Hammer Mechanical limited time offer (deal ad image placeholder — add your current promotion here)" title="Hammer Mechanical Limited Time Offer" width="1024" height="1024" loading="eager" fetchpriority="low" class="deals-popup-image">
+            <div class="popup-cta">
+                <p class="popup-cta-text">Call Us Now To Receive Your Limited Time Offer!</p>
+                <a href="tel:19055550123" class="header-call-btn popup-call-btn" aria-label="Call (905) 555-0123">
+                    <svg class="header-call-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.58l2.2-2.21c.28-.27.36-.66.25-1.01C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/>
+                    </svg>
+                    <span class="header-call-text">
+                        <span class="header-call-number">(905) 555-0123</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
